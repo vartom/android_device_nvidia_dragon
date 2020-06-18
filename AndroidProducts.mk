@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_icosa.mk \
-    $(LOCAL_DIR)/lineage_icosa.mk
+    $(LOCAL_DIR)/full_dragon.mk \
+    $(LOCAL_DIR)/lineage_dragon.mk

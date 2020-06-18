@@ -25,11 +25,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Inherit from icosa device
-$(call inherit-product, device/nintendo/icosa/device.mk)
+$(call inherit-product, device/nvidia/dragon/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_icosa
-PRODUCT_DEVICE := icosa
-PRODUCT_BRAND := NINTENDO
-PRODUCT_MANUFACTURER := NINTENDO
-PRODUCT_MODEL := Switch
+PRODUCT_NAME := full_dragon
+PRODUCT_DEVICE := dragon
+PRODUCT_BRAND := NVIDIA
+PRODUCT_MANUFACTURER := NVIDIA
+PRODUCT_MODEL := Pixel C
